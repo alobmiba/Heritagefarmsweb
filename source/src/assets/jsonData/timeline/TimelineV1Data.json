@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "year": "Year 1",
+        "title": "Farm Established"
+    },
+    {
+        "id": 2,
+        "year": "Year 2",
+        "title": "Greenhouse & Hydroponics"
+    },
+    {
+        "id": 3,
+        "year": "Year 3",
+        "title": "Land Acquisition & Expansion"
+    },
+    {
+        "id": 4,
+        "year": "Year 5",
+        "title": "Container Farm & Hospitality"
+    }
+]

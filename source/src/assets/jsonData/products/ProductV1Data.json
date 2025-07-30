@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "title": "Fluted Pumpkin (Ugwu)",
+        "thumb": "1.png",
+        "price": "Inquire",
+        "tags": ["Greens", "Heritage"]
+    },
+    {
+        "id": 2,
+        "title": "Jute Leaves (Ewedu)",
+        "thumb": "2.png",
+        "price": "Inquire",
+        "tags": ["Greens", "Heritage"]
+    },
+    {
+        "id": 3,
+        "title": "Water Leaf (Gbure)",
+        "thumb": "3.png",
+        "price": "Inquire",
+        "tags": ["Greens", "Heritage"]
+    },
+    {
+        "id": 4,
+        "title": "Clove Basil (Scent Leaf / Efirin)",
+        "thumb": "4.png",
+        "price": "Inquire",
+        "tags": ["Herbs", "Heritage"]
+    },
+    {
+        "id": 5,
+        "title": "Habanero & Shepherd Peppers",
+        "thumb": "5.png",
+        "price": "Inquire",
+        "tags": ["Peppers", "Produce"]
+    },
+    {
+        "id": 6,
+        "title": "Lemongrass",
+        "thumb": "6.png",
+        "price": "Inquire",
+        "tags": ["Herbs", "Produce"]
+    },
+    {
+        "id": 7,
+        "title": "Calaloo",
+        "thumb": "7.png",
+        "price": "Inquire",
+        "tags": ["Greens", "Produce"]
+    },
+    {
+        "id": 8,
+        "title": "Beets",
+        "thumb": "8.png",
+        "price": "Inquire",
+        "tags": ["Vegetables", "Produce"]
+    },
+    {
+        "id": 9,
+        "title": "Heirloom Tomatoes",
+        "thumb": "1.png",
+        "price": "Inquire",
+        "tags": ["Vegetables", "Produce"]
+    },
+    {
+        "id": 10,
+        "title": "Goats",
+        "thumb": "2.png",
+        "price": "Inquire",
+        "tags": ["Livestock", "Pasture-Raised"]
+    },
+    {
+        "id": 11,
+        "title": "Lambs",
+        "thumb": "3.png",
+        "price": "Inquire",
+        "tags": ["Livestock", "Pasture-Raised"]
+    }
+]

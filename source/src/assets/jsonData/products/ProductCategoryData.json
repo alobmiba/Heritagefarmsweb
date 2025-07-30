@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Fluted Pumpkin (Ugwu)",
+        "thumb": "9.png"
+    },
+    {
+        "id": 2,
+        "name": "Jute Leaves (Ewedu)",
+        "thumb": "10.png"
+    },
+    {
+        "id": 3,
+        "name": "Water Leaf (Gbure)",
+        "thumb": "11.png"
+    },
+    {
+        "id": 4,
+        "name": "Clove Basil (Efirin)",
+        "thumb": "12.png"
+    },
+    {
+        "id": 5,
+        "name": "Habanero Peppers",
+        "thumb": "13.png"
+    },
+    {
+        "id": 6,
+        "name": "Heirloom Tomatoes",
+        "thumb": "14.png"
+    }
+]

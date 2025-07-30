@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "icon": "3.png",
+        "title": "Community Empowerment",
+        "description": "Empowering Ontario’s African & Caribbean communities with fresh, culturally meaningful produce."
+    },
+    {
+        "id": 2,
+        "icon": "2.png",
+        "title": "Sustainable Practices",
+        "description": "Utilizing regenerative farming, including a light-deprivation greenhouse and hydroponic towers."
+    }
+]

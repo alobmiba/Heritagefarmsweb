@@ -1,0 +1,12 @@
+
+[
+    {
+        "id": 1,
+        "image": "3.jpg",
+        "shape": "2.png",
+        "badgeText": "Cultivating Heritage",
+        "title": "Reclaiming Food Sovereignty",
+        "description": "By growing cultural greens locally, we reduce reliance on imports and restore fresh, culturally meaningful produce to communities in the GTA and across Ontario.",
+        "buttonText": "Learn More"
+    }
+]

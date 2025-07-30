@@ -1,0 +1,24 @@
+
+[
+    {
+        "id": 1,
+        "name": "Abimbola Adegbite",
+        "phone": "44-20-7328-4490",
+        "title": "Business & Strategy Lead",
+        "thumb": "1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Joe Azzouggagh",
+        "phone": "44-20-7328-4491",
+        "title": "Farm Operations Lead",
+        "thumb": "2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Okenna Obi-Njoku",
+        "phone": "44-20-7328-4492",
+        "title": "Consultant",
+        "thumb": "3.jpg"
+    }
+]

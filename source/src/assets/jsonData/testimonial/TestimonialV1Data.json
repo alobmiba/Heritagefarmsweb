@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "thumb": "1.jpg",
+        "quoteImage": "quote-big.png",
+        "testimonial": "We provide fresh, affordable, and culturally meaningful produce to African & Caribbean grocery stores, restaurants, and families across Ontario, strengthening our local food supply chain.",
+        "name": "African & Caribbean Grocers",
+        "designation": "Community Partner"
+    },
+    {
+        "id": 2,
+        "thumb": "2.jpg",
+        "quoteImage": "quote-big.png",
+        "testimonial": "By solving the reliance on imported frozen or dried greens, we offer our community access to fresh, high-quality heritage produce that is often unavailable or expensive.",
+        "name": "Diaspora Families",
+        "designation": "Valued Customer"
+    },
+    {
+        "id": 3,
+        "thumb": "3.jpg",
+        "quoteImage": "quote-big.png",
+        "testimonial": "Our farm fosters economic inclusion by creating land-based jobs rooted in ecological agriculture, empowering our community from the ground up.",
+        "name": "Health-Conscious Buyers",
+        "designation": "Supporter"
+    }
+]

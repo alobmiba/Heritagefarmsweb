@@ -1,0 +1,39 @@
+
+[
+    {
+        "id": 1,
+        "image": "2.png",
+        "title": "Fluted Pumpkin (Ugwu)",
+        "description": "A popular vegetable in Nigerian cuisine, rich in vitamins and minerals, grown sustainably in our local fields."
+    },
+    {
+        "id": 2,
+        "image": "3.png",
+        "title": "Jute Leaves (Ewedu)",
+        "description": "A staple in West African soups, known for its unique texture and health benefits, harvested fresh from our farm."
+    },
+    {
+        "id": 3,
+        "image": "4.png",
+        "title": "Clove Basil (Efirin)",
+        "description": "An aromatic herb, also known as Scent Leaf, used for its unique flavor in traditional dishes and grown year-round."
+    },
+    {
+        "id": 4,
+        "image": "1.png",
+        "title": "Water Leaf (Gbure)",
+        "description": "A versatile green used in salads and soups, packed with nutrients and grown in our hydroponic towers."
+    },
+    {
+        "id": 5,
+        "image": "5.png",
+        "title": "Habanero & Shepherd Peppers",
+        "description": "A mix of spicy and sweet peppers, perfect for adding a kick to any dish, grown in our greenhouse."
+    },
+    {
+        "id": 6,
+        "image": "6.png",
+        "title": "Lemongrass & Calaloo",
+        "description": "Aromatic lemongrass and leafy calaloo, essential ingredients in Caribbean and African cooking."
+    }
+]

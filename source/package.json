@@ -1,0 +1,49 @@
+{
+  "name": "agrica-react",
+  "private": true,
+  "version": "1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.1",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.3.5",
+    "gsap": "^3.12.7",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "next": "^15.3.1",
+    "react": "^19.1.0",
+    "react-circular-progressbar": "^2.2.0",
+    "react-countup": "^6.5.3",
+    "react-dom": "^19.1.0",
+    "react-helmet-async": "^2.0.5",
+    "react-modal-video": "^2.0.2",
+    "react-paginate": "^8.3.0",
+    "react-photo-view": "^1.2.7",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.5.3",
+    "react-simple-scroll-up": "^0.2.3",
+    "react-toastify": "^11.0.5",
+    "swiper": "^11.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@types/imagesloaded": "^4.1.6",
+    "@types/isotope-layout": "^3.0.15",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.26.1",
+    "vite": "^6.3.1"
+  }
+}

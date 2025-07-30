@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "thumb": "1.jpg",
+        "category": "Infrastructure",
+        "title": "Commercial Greenhouse"
+    },
+    {
+        "id": 2,
+        "thumb": "2.jpg",
+        "category": "Technology",
+        "title": "Hydroponic Towers"
+    },
+    {
+        "id": 3,
+        "thumb": "3.jpg",
+        "category": "Farming",
+        "title": "Regenerative Cropping"
+    },
+    {
+        "id": 4,
+        "thumb": "4.jpg",
+        "category": "Livestock",
+        "title": "Pasture-Raised Goats"
+    },
+    {
+        "id": 5,
+        "thumb": "5.jpg",
+        "category": "Livestock",
+        "title": "Happy Lambs"
+    }
+]
