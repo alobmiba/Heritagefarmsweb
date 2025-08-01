@@ -49,7 +49,7 @@ const SingleProductList = ({ product }: { product: DataType }) => {
                                 {onSale && <span className="onsale">Sale!</span>}
 
                                 <Link to={`/shop-single/${id}`}>
-                                    <img src={`/assets/img/products/${thumb}`} alt="Product" />
+                                    <img src={`/assets/img/products/${thumb}`} alt="Product" loading="lazy" />
                                 </Link>
 
                                 <div className="shop-action">

@@ -1,26 +1,28 @@
 import { Route, Routes } from "react-router-dom";
-import Home1 from "./pages/homePages/Home1";
+import { Suspense, lazy } from "react";
+
+const Home1 = lazy(() => import("./pages/homePages/Home1"));
 
 // Inner Pages
-import AboutUsPage from "./pages/innerPages/AboutUsPage";
-import FarmersPage from "./pages/innerPages/FarmersPage";
-import ContactPage from "./pages/innerPages/ContactPage";
-import RegisterPage from "./pages/innerPages/RegisterPage";
-import LoginPage from "./pages/innerPages/LoginPage";
-import FarmerDetailsPage from "./pages/innerPages/FarmerDetailsPage";
+const AboutUsPage = lazy(() => import("./pages/innerPages/AboutUsPage"));
+const FarmersPage = lazy(() => import("./pages/innerPages/FarmersPage"));
+const ContactPage = lazy(() => import("./pages/innerPages/ContactPage"));
+const RegisterPage = lazy(() => import("./pages/innerPages/RegisterPage"));
+const LoginPage = lazy(() => import("./pages/innerPages/LoginPage"));
+const FarmerDetailsPage = lazy(() => import("./pages/innerPages/FarmerDetailsPage"));
 
 // Shop Pages
-import ShopPage from "./pages/shopPages/ShopPage";
-import ShopSinglePage from "./pages/shopPages/ShopSinglePage";
-import ShopSingleThumbPage from "./pages/shopPages/ShopSingleThumbPage";
-import CartPage from "./pages/shopPages/CartPage";
-import CheckoutPage from "./pages/shopPages/CheckoutPage";
+const ShopPage = lazy(() => import("./pages/shopPages/ShopPage"));
+const ShopSinglePage = lazy(() => import("./pages/shopPages/ShopSinglePage"));
+const ShopSingleThumbPage = lazy(() => import("./pages/shopPages/ShopSingleThumbPage"));
+const CartPage = lazy(() => import("./pages/shopPages/CartPage"));
+const CheckoutPage = lazy(() => import("./pages/shopPages/CheckoutPage"));
 
-import NotFoundPage from "./pages/innerPages/NotFoundPage";
+const NotFoundPage = lazy(() => import("./pages/innerPages/NotFoundPage"));
 
 const Routers = () => {
     return (
-        <>
+        <Suspense fallback={<div>Loading...</div>}>
             <Routes>
 
                 <Route path='/' element={<Home1 />}></Route>
@@ -44,7 +46,7 @@ const Routers = () => {
                 <Route path='*' element={<NotFoundPage />}></Route>
 
             </Routes>
-        </>
+        </Suspense>
     );
 };
 

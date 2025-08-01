@@ -23,13 +23,13 @@ const HeaderV2 = () => {
                                 <i className="fa fa-bars" />
                             </button>
                             <Link className="navbar-brand" to="/">
-                                <img src={logoLight} className="logo desktop" alt="Logo" />
-                                <img src={logo} className="logo logo-mobile" alt="Logo" />
+                                <img src={logoLight} className="logo desktop" alt="Logo" loading="lazy" />
+                                <img src={logo} className="logo logo-mobile" alt="Logo" loading="lazy" />
                             </Link>
                         </div>
 
                         <div className={`collapse navbar-collapse ${isOpen ? "show collapse-mobile" : "collapse-mobile"}`} id="navbar-menu">
-                            <img src={logo} alt="Logo" />
+                            <img src={logo} alt="Logo" loading="lazy" />
                             <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" onClick={closeMenu}>
                                 <i className="fa fa-times" />
                             </button>

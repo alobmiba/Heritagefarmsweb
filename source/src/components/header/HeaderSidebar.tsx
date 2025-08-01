@@ -31,7 +31,7 @@ const HeaderSidebar = ({ isInfoOpen, closeInfoBar, openInfoBar }: SidebarInfoPro
                     </Link>
                     <div className="widget">
                         <div className="logo">
-                            <img src={logoLight} alt="Logo" />
+                            <img src={logoLight} alt="Logo" loading="lazy" />
                         </div>
                     </div>
                     <div className="widget">

@@ -69,7 +69,7 @@ const ShopSingleTab = () => {
                                 <div className="review-items">
                                     <div className="item">
                                         <div className="thumb">
-                                            <img src={team1} alt="Thumb" />
+                                            <img src={team1} alt="Thumb" loading="lazy" />
                                         </div>
                                         <div className="info">
                                             <div className="rating">
@@ -89,7 +89,7 @@ const ShopSingleTab = () => {
                                     </div>
                                     <div className="item">
                                         <div className="thumb">
-                                            <img src={team2} alt="Thumb" />
+                                            <img src={team2} alt="Thumb" loading="lazy" />
                                         </div>
                                         <div className="info">
                                             <div className="rating">

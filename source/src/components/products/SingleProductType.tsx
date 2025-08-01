@@ -14,7 +14,7 @@ const SingleProductType = ({ product }: { product: DataType }) => {
     return (
         <div className="product-type-item">
             <div className="thumb">
-                <img src={`/assets/img/product/${thumb}`} alt="Image Not Found" />
+                <img src={`/assets/img/product/${thumb}`} alt="Image Not Found" loading="lazy" />
                 <span>{number}</span>
             </div>
             <div className="info">

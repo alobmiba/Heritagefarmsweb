@@ -13,7 +13,7 @@ const SingleGalleryV1 = ({ gallery }: { gallery: DataType }) => {
     return (
         <>
             <div className="gallery-style-one">
-                <img src={`/assets/img/projects/${thumb}`} className='w-auto' alt="Image not Found" />
+                <img src={`/assets/img/projects/${thumb}`} className='w-auto' alt="Image not Found" loading="lazy" />
                 <div className="overlay">
                     <p>{category}</p>
                     <h4><Link to={`/project-details/${id}`}>{title}</Link></h4>
