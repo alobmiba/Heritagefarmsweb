@@ -21,6 +21,7 @@ const ProductCarousel = () => {
                                         src={`/assets/img/products/${data.thumb}`}
                                         alt="Thumb"
                                         style={{ cursor: 'pointer' }}
+                                        loading="lazy"
                                     />
                                 </PhotoView>
                                 <span className="onsale theme">-{data.discount}%</span>
@@ -58,6 +59,7 @@ const ProductCarousel = () => {
                                             src={`/assets/img/products/${data.thumb}`}
                                             alt="image"
                                             style={{ cursor: 'pointer' }}
+                                            loading="lazy"
                                         />
                                     </div>
                                 </SwiperSlide>

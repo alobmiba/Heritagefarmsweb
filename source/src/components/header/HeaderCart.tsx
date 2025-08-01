@@ -35,7 +35,7 @@ const HeaderCart = () => {
                                             <li key={item.id}>
                                                 <div className="thumb">
                                                     <span className="photo">
-                                                        <img src={`/assets/img/products/${item.thumb}`} alt={item.title} />
+                                                        <img src={`/assets/img/products/${item.thumb}`} alt={item.title} loading="lazy" />
                                                     </span>
                                                     <Link to="#" className="remove-product" onClick={() => handleRemove(item.id)} >
                                                         <i className="fas fa-times" />

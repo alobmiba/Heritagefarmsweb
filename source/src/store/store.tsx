@@ -22,6 +22,22 @@ const saveToLocalStorage = (state: any) => {
     }
 };
 
+// Throttle function to limit how often we write to localStorage
+const throttle = (func: (...args: any[]) => void, limit: number) => {
+    let inThrottle = false;
+    return (...args: any[]) => {
+        if (!inThrottle) {
+            func(...args);
+            inThrottle = true;
+            setTimeout(() => {
+                inThrottle = false;
+            }, limit);
+        }
+    };
+};
+
+const saveToLocalStorageThrottled = throttle(saveToLocalStorage, 1000);
+
 const store = configureStore({
     reducer: {
         cart: cartReducer,
@@ -32,7 +48,7 @@ const store = configureStore({
 });
 
 store.subscribe(() => {
-    saveToLocalStorage(store.getState().cart); // Save only cart state
+    saveToLocalStorageThrottled(store.getState().cart); // Save only cart state
 });
 
 export type RootState = ReturnType<typeof store.getState>;

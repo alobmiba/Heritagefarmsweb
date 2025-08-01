@@ -12,7 +12,7 @@ const BenefitsV1 = () => {
                         <div className="col-xl-6 col-lg-7">
                             <div className="benifit-items text-light">
                                 <div className="shape">
-                                    <img src={illustration8} alt="Image Not Found" />
+                                    <img src={illustration8} alt="Image Not Found" loading="lazy" />
                                 </div>
                                 <h2 className="title">Distributors of Organic Produce</h2>
                                 <p>

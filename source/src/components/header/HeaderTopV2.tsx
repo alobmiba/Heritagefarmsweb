@@ -22,7 +22,7 @@ const HeaderTopV2 = () => {
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-4 logo">
                             <Link to="/">
-                                <img src={logoMixLight} alt="Logo" />
+                                <img src={logoMixLight} alt="Logo" loading="lazy" />
                             </Link>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-4 text-end info">

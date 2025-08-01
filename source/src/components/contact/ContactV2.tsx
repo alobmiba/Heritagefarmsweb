@@ -21,13 +21,13 @@ const ContactV2 = () => {
         <>
             <div className="contact-area contact-page overflow-hidden bg-gray default-padding">
                 <div className="sahpe-right-bottom">
-                    <img src={shape16} alt="Image Not Found" />
+                    <img src={shape16} alt="Image Not Found" loading="lazy" />
                 </div>
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-tact-stye-one col-xl-7 col-lg-7">
                             <div className="contact-form-style-one mb-md-50">
-                                <img src="/assets/img/farmers/1.jpg" alt="Image Not Found" />
+                                <img src="/assets/img/farmers/1.jpg" alt="Image Not Found" loading="lazy" />
                                 <h5 className="sub-title">Have Questions?</h5>
                                 <h2 className="heading">Send us a message</h2>
 
